@@ -1,0 +1,20 @@
+{
+    "xml_path": "C:/data/inspire/inspire.xml",
+    "shapefile_dir": "C:/data/inspire/shapefile",
+    "default_epsg": "3857",
+    "ui_settings": {
+        "theme": "light",
+        "language": "cs",
+        "show_tooltips": true,
+        "auto_expand_tree": true
+    },
+    "batch_processing": {
+        "max_threads": 1,
+        "delay_between_items": 0.01
+    },
+    "logging": {
+        "enabled": true,
+        "level": "INFO",
+        "file_path": "C:/data/inspire/logs/inspire.log"
+    }
+}
