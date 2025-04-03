@@ -1,0 +1,81 @@
+[2025-03-27 22:22:08,274] [INFO] [OrtofotoApp] Plugin pro logování byl inicializován
+[2025-03-27 22:22:22,688] [INFO] [OrtofotoApp] Region změněn na: Hlavní město Praha-Kraj
+[2025-03-27 22:22:58,995] [INFO] [OrtofotoApp] Region změněn na: Hlavní město Praha-Kraj
+[2025-03-27 22:22:59,947] [INFO] [OrtofotoApp] Plugin pro logování byl inicializován
+[2025-03-27 22:23:03,627] [INFO] [OrtofotoApp] Region změněn na: Karlovarský kraj-Kraj
+[2025-03-27 22:23:13,711] [INFO] [OrtofotoApp] Region změněn na: Žákovice-Obec
+[2025-03-27 22:23:14,889] [INFO] [OrtofotoApp] Region změněn na: Županovice-Obec
+[2025-03-27 22:48:55,876] [INFO] [OrtofotoApp] Region změněn na: Hlavní město Praha-Kraj
+[2025-03-27 22:48:56,434] [INFO] [OrtofotoApp] Plugin pro logování byl inicializován
+[2025-03-27 22:48:59,940] [INFO] [OrtofotoApp] Region změněn na: Adamov-Obec-CZ0311535826
+[2025-03-27 22:49:02,046] [INFO] [OrtofotoApp] Region změněn na: Adamov-Obec-CZ0641581291
+[2025-03-27 22:49:02,689] [INFO] [OrtofotoApp] Region změněn na: Adamov-Obec-CZ0311535826
+[2025-03-27 22:49:03,680] [INFO] [OrtofotoApp] Region změněn na: Adamov-Obec-CZ0641581291
+[2025-03-27 22:49:04,587] [INFO] [OrtofotoApp] Region změněn na: Adamov-Obec-CZ0311535826
+[2025-03-27 22:49:05,138] [INFO] [OrtofotoApp] Region změněn na: Adamov-Obec
+[2025-03-27 22:49:13,725] [INFO] [OrtofotoApp] Region změněn na: Adamov-Obec-CZ0311535826
+[2025-03-27 22:49:18,564] [INFO] [OrtofotoApp] Region změněn na: Adamov-Obec-CZ0641581291
+[2025-03-27 22:49:46,585] [INFO] [OrtofotoApp] Region změněn na: Zubří-Obec-CZ0635597147
+[2025-03-27 22:49:47,435] [INFO] [OrtofotoApp] Region změněn na: Zvole-Obec
+[2025-03-27 22:49:52,458] [INFO] [OrtofotoApp] Region změněn na: Zvole-Obec-CZ020A539902
+[2025-03-27 22:49:57,822] [INFO] [OrtofotoApp] Region změněn na: Zvole-Obec-CZ0635597155
+[2025-03-28 09:38:40,331] [INFO] [OrtofotoApp] Region změněn na: Hlavní město Praha-Kraj
+[2025-03-28 09:38:41,147] [INFO] [OrtofotoApp] Plugin pro logování byl inicializován
+[2025-03-28 09:55:30,995] [INFO] [OrtofotoApp] Region změněn na: Hradec nad Moravicí-Obec
+[2025-03-28 09:55:31,430] [INFO] [OrtofotoApp] Region změněn na: Hradec Králové-Obec
+[2025-03-28 09:55:44,542] [INFO] [OrtofotoApp] Zahájeno stahování dlaždic pro region: Hradec Králové-Obec
+[2025-03-28 10:15:09,759] [INFO] [OrtofotoApp] Dokončeno stahování dlaždic pro region: Hradec Králové-Obec, staženo 2392 dlaždic
+[2025-03-28 11:35:46,202] [INFO] [OrtofotoApp] Vytvořena VRT vrstva: data/vrt/Hradec Králové-Obec/Hradec Králové-Obec_ortofoto.vrt
+[2025-03-28 11:59:55,960] [INFO] [OrtofotoApp] Dokončeno rozdělení na dlaždice: 288 dlaždic v adresáři Vystup/HradecKraloveObec
+[2025-03-28 18:51:46,038] [INFO] [OrtofotoApp] Region změněn na: Česká republika-Stát
+[2025-03-28 19:01:10,239] [INFO] [OrtofotoApp] Region změněn na: BBox_N50E016
+[2025-03-28 19:03:15,819] [INFO] [OrtofotoApp] Region změněn na: Hlavní město Praha-Kraj
+[2025-03-28 19:03:16,819] [INFO] [OrtofotoApp] Plugin pro logování byl inicializován
+[2025-03-28 19:03:27,619] [INFO] [OrtofotoApp] Region změněn na: BBox_N50E016
+[2025-03-28 19:03:39,108] [INFO] [OrtofotoApp] Region změněn na: BBox_N50E016
+[2025-03-28 19:04:07,375] [INFO] [OrtofotoApp] Region změněn na: BBox_N51E012
+[2025-03-28 19:04:11,766] [INFO] [OrtofotoApp] Region změněn na: BBox_N51E013
+[2025-03-28 19:04:16,518] [INFO] [OrtofotoApp] Region změněn na: BBox_N51E014
+[2025-03-28 19:04:29,895] [INFO] [OrtofotoApp] Region změněn na: BBox_N51E015
+[2025-03-28 19:04:40,062] [INFO] [OrtofotoApp] Region změněn na: BBox_N51E016
+[2025-03-28 19:04:48,114] [INFO] [OrtofotoApp] Region změněn na: BBox_N51E017
+[2025-03-28 19:04:52,033] [INFO] [OrtofotoApp] Region změněn na: BBox_N51E018
+[2025-03-28 19:04:56,576] [INFO] [OrtofotoApp] Region změněn na: BBox_N51E019
+[2025-03-28 19:05:04,709] [INFO] [OrtofotoApp] Region změněn na: BBox_N50E012
+[2025-03-28 19:05:08,365] [INFO] [OrtofotoApp] Region změněn na: BBox_N50E013
+[2025-03-28 19:05:12,146] [INFO] [OrtofotoApp] Region změněn na: BBox_N50E014
+[2025-03-28 19:05:15,656] [INFO] [OrtofotoApp] Region změněn na: BBox_N50E015
+[2025-03-28 19:05:19,029] [INFO] [OrtofotoApp] Region změněn na: BBox_N50E016
+[2025-03-28 19:05:22,199] [INFO] [OrtofotoApp] Region změněn na: BBox_N50E017
+[2025-03-28 19:05:25,706] [INFO] [OrtofotoApp] Region změněn na: BBox_N50E018
+[2025-03-28 19:05:28,787] [INFO] [OrtofotoApp] Region změněn na: BBox_N50E019
+[2025-03-28 19:05:36,076] [INFO] [OrtofotoApp] Region změněn na: BBox_N49E012
+[2025-03-28 19:05:40,399] [INFO] [OrtofotoApp] Region změněn na: BBox_N49E013
+[2025-03-28 19:05:44,031] [INFO] [OrtofotoApp] Region změněn na: BBox_N49E014
+[2025-03-28 19:05:47,242] [INFO] [OrtofotoApp] Region změněn na: BBox_N49E015
+[2025-03-28 19:05:50,462] [INFO] [OrtofotoApp] Region změněn na: BBox_N49E016
+[2025-03-28 19:05:53,733] [INFO] [OrtofotoApp] Region změněn na: BBox_N49E017
+[2025-03-28 19:05:57,019] [INFO] [OrtofotoApp] Region změněn na: BBox_N49E018
+[2025-03-28 19:06:00,601] [INFO] [OrtofotoApp] Region změněn na: BBox_N49E019
+[2025-03-28 19:06:21,251] [INFO] [OrtofotoApp] Region změněn na: BBox_N48E012
+[2025-03-28 19:06:24,724] [INFO] [OrtofotoApp] Region změněn na: BBox_N48E013
+[2025-03-28 19:06:29,065] [INFO] [OrtofotoApp] Region změněn na: BBox_N48E014
+[2025-03-28 19:06:32,124] [INFO] [OrtofotoApp] Region změněn na: BBox_N48E015
+[2025-03-28 19:06:35,174] [INFO] [OrtofotoApp] Region změněn na: BBox_N48E016
+[2025-03-28 19:06:38,819] [INFO] [OrtofotoApp] Region změněn na: BBox_N48E017
+[2025-03-28 19:06:42,282] [INFO] [OrtofotoApp] Region změněn na: BBox_N48E018
+[2025-03-28 19:06:46,090] [INFO] [OrtofotoApp] Region změněn na: BBox_N48E019
+[2025-03-28 19:13:17,011] [INFO] [OrtofotoApp] Region změněn na: N51E014
+[2025-03-28 19:14:00,581] [INFO] [OrtofotoApp] Region změněn na: N51E014
+[2025-03-28 19:14:34,664] [INFO] [OrtofotoApp] Zahájeno stahování dlaždic pro region: N51E014
+[2025-03-28 19:15:08,388] [INFO] [OrtofotoApp] Dokončeno stahování dlaždic pro region: N51E014, staženo 89 dlaždic
+[2025-03-28 19:15:17,436] [INFO] [OrtofotoApp] Region změněn na: BBox_N48E015
+[2025-03-28 19:15:50,026] [INFO] [OrtofotoApp] Region změněn na: N51E014
+[2025-03-28 19:16:37,552] [INFO] [OrtofotoApp] Zahájeno stahování dlaždic pro region: N51E014
+[2025-03-28 19:18:52,836] [INFO] [OrtofotoApp] Dokončeno stahování dlaždic pro region: N51E014, staženo 867 dlaždic
+[2025-03-28 19:32:46,809] [INFO] [OrtofotoApp] Vytvořena VRT vrstva: data/vrt/N51E014/N51E014_ortofoto.vrt
+[2025-03-28 19:38:42,909] [INFO] [OrtofotoApp] Dokončeno rozdělení na dlaždice: 102 dlaždic v adresáři Vystup/N51E014
+[2025-03-28 20:37:36,991] [INFO] [OrtofotoApp] Region změněn na: Hlavní město Praha-Kraj
+[2025-03-28 20:37:37,828] [INFO] [OrtofotoApp] Plugin pro logování byl inicializován
+[2025-03-28 20:47:50,861] [INFO] [OrtofotoApp] Region změněn na: Hlavní město Praha-Kraj
+[2025-03-28 20:47:51,827] [INFO] [OrtofotoApp] Plugin pro logování byl inicializován
