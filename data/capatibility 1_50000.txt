@@ -1,0 +1,255 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:esri_wms="http://www.esri.com/wms" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd http://www.esri.com/wms https://ags.cuzk.gov.cz/arcgis1/services/ZTM/ZTM50/MapServer/WMSServer?version=1.3.0%26service=WMS%26request=GetSchemaExtension">
+<script src="chrome-extension://pefhciejnkgdgoahgfeklebcbpmhnhhd/js/elephant.js"/>
+<Service>
+<Name>
+<![CDATA[ WMS ]]>
+</Name>
+<Title>
+<![CDATA[ Prohlížecí služba pro Základní topografickou mapu ČR 1:50 000 ]]>
+</Title>
+<Abstract>
+<![CDATA[ WMS ]]>
+</Abstract>
+<KeywordList>
+<Keyword>
+<![CDATA[ Služba zpřístupnění map ]]>
+</Keyword>
+</KeywordList>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://ags.cuzk.gov.cz/arcgis1/services/ZTM/ZTM50/MapServer/WMSServer?"/>
+<ContactInformation>
+<ContactPersonPrimary>
+<ContactPerson>
+<![CDATA[ Křížek, Milan ]]>
+</ContactPerson>
+<ContactOrganization>
+<![CDATA[ Zeměměřický úřad ]]>
+</ContactOrganization>
+</ContactPersonPrimary>
+<ContactPosition>
+<![CDATA[ custodian ]]>
+</ContactPosition>
+<ContactAddress>
+<AddressType>
+<![CDATA[ postal ]]>
+</AddressType>
+<Address>
+<![CDATA[ Pod sídlištěm 9 ]]>
+</Address>
+<City>
+<![CDATA[ Praha ]]>
+</City>
+<StateOrProvince>
+<![CDATA[ Praha ]]>
+</StateOrProvince>
+<PostCode>
+<![CDATA[ 182 11 ]]>
+</PostCode>
+<Country>
+<![CDATA[ Česká republika ]]>
+</Country>
+</ContactAddress>
+<ContactVoiceTelephone>
+<![CDATA[ +420 318 643 130 ]]>
+</ContactVoiceTelephone>
+<ContactFacsimileTelephone>
+<![CDATA[ ]]>
+</ContactFacsimileTelephone>
+<ContactElectronicMailAddress>
+<![CDATA[ milan.krizek@cuzk.gov.cz ]]>
+</ContactElectronicMailAddress>
+</ContactInformation>
+<Fees>
+<![CDATA[ © ČÚZK ]]>
+</Fees>
+<AccessConstraints>
+<![CDATA[ https://geoportal.cuzk.gov.cz/Dokumenty/Podminky.pdf ]]>
+</AccessConstraints>
+<MaxWidth>4096</MaxWidth>
+<MaxHeight>4096</MaxHeight>
+</Service>
+<Capability>
+<Request>
+<GetCapabilities>
+<Format>application/vnd.ogc.wms_xml</Format>
+<Format>text/xml</Format>
+<DCPType>
+<HTTP>
+<Get>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://ags.cuzk.gov.cz/arcgis1/services/ZTM/ZTM50/MapServer/WMSServer?"/>
+</Get>
+</HTTP>
+</DCPType>
+</GetCapabilities>
+<GetMap>
+<Format>image/bmp</Format>
+<Format>image/jpeg</Format>
+<Format>image/tiff</Format>
+<Format>image/png</Format>
+<Format>image/png8</Format>
+<Format>image/png24</Format>
+<Format>image/png32</Format>
+<Format>image/gif</Format>
+<Format>image/svg+xml</Format>
+<DCPType>
+<HTTP>
+<Get>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://ags.cuzk.gov.cz/arcgis1/services/ZTM/ZTM50/MapServer/WMSServer?"/>
+</Get>
+</HTTP>
+</DCPType>
+</GetMap>
+<GetFeatureInfo>
+<Format>application/vnd.esri.wms_raw_xml</Format>
+<Format>application/vnd.esri.wms_featureinfo_xml</Format>
+<Format>application/vnd.ogc.wms_xml</Format>
+<Format>application/geo+json</Format>
+<Format>text/xml</Format>
+<Format>text/html</Format>
+<Format>text/plain</Format>
+<DCPType>
+<HTTP>
+<Get>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://ags.cuzk.gov.cz/arcgis1/services/ZTM/ZTM50/MapServer/WMSServer?"/>
+</Get>
+</HTTP>
+</DCPType>
+</GetFeatureInfo>
+<esri_wms:GetStyles>
+<Format>application/vnd.ogc.sld+xml</Format>
+<DCPType>
+<HTTP>
+<Get>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://ags.cuzk.gov.cz/arcgis1/services/ZTM/ZTM50/MapServer/WMSServer?"/>
+</Get>
+</HTTP>
+</DCPType>
+</esri_wms:GetStyles>
+</Request>
+<Exception>
+<Format>application/vnd.ogc.se_xml</Format>
+<Format>application/vnd.ogc.se_inimage</Format>
+<Format>application/vnd.ogc.se_blank</Format>
+<Format>text/xml</Format>
+<Format>XML</Format>
+</Exception>
+<Layer>
+<Title>
+<![CDATA[ ZTM50 ]]>
+</Title>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:5514</CRS>
+<!--  alias 5514  -->
+<CRS>EPSG:102067</CRS>
+<CRS>EPSG:3034</CRS>
+<CRS>EPSG:3035</CRS>
+<CRS>EPSG:3045</CRS>
+<CRS>EPSG:3046</CRS>
+<CRS>EPSG:3333</CRS>
+<CRS>EPSG:28403</CRS>
+<CRS>EPSG:3334</CRS>
+<CRS>EPSG:28404</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<CRS>EPSG:4258</CRS>
+<CRS>EPSG:5221</CRS>
+<!--  alias 5221  -->
+<CRS>EPSG:102066</CRS>
+<CRS>EPSG:32633</CRS>
+<CRS>EPSG:32634</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>11.897265</westBoundLongitude>
+<eastBoundLongitude>19.012700</eastBoundLongitude>
+<southBoundLatitude>48.206820</southBoundLatitude>
+<northBoundLatitude>51.383777</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="11.897265" miny="48.206820" maxx="19.012700" maxy="51.383777"/>
+<BoundingBox CRS="EPSG:4326" minx="48.206820" miny="11.897265" maxx="51.383777" maxy="19.012700"/>
+<BoundingBox CRS="EPSG:5514" minx="-907032.062400" miny="-1229928.981500" maxx="-427819.042600" maxy="-932316.789500"/>
+<BoundingBox CRS="EPSG:102067" minx="-907032.062400" miny="-1229928.981500" maxx="-427819.042600" maxy="-932316.789500"/>
+<BoundingBox CRS="EPSG:3034" minx="2395705.359549" miny="4129016.155979" maxx="2768090.190938" maxy="4639254.523858"/>
+<BoundingBox CRS="EPSG:3035" minx="2791483.969107" miny="4454610.589446" maxx="3177383.373809" maxy="4982542.978650"/>
+<BoundingBox CRS="EPSG:3045" minx="5342128.007842" miny="281584.015418" maxx="5698963.473497" maxy="795129.766018"/>
+<BoundingBox CRS="EPSG:3046" minx="5373691.737689" miny="-140292.958490" maxx="5695038.666361" maxy="353824.549314"/>
+<BoundingBox CRS="EPSG:3333" minx="5344359.782747" miny="3281492.977414" maxx="5701344.126709" maxy="3795252.784308"/>
+<BoundingBox CRS="EPSG:28403" minx="5344359.782747" miny="3281492.977414" maxx="5701344.126709" maxy="3795252.784308"/>
+<BoundingBox CRS="EPSG:3334" minx="5375936.669268" miny="3859440.161247" maxx="5697417.683693" maxy="4353763.619306"/>
+<BoundingBox CRS="EPSG:28404" minx="5375936.669268" miny="3859440.161247" maxx="5697417.683693" maxy="4353763.619306"/>
+<BoundingBox CRS="EPSG:3857" minx="1324397.510118" miny="6141331.504841" maxx="2116484.047864" maxy="6689462.238321"/>
+<BoundingBox CRS="EPSG:102100" minx="1324397.510118" miny="6141331.504841" maxx="2116484.047864" maxy="6689462.238321"/>
+<BoundingBox CRS="EPSG:4258" minx="48.206820" miny="11.897265" maxx="51.383777" maxy="19.012700"/>
+<BoundingBox CRS="EPSG:5221" minx="-907032.062400" miny="-1229928.981500" maxx="-427819.042600" maxy="-932316.789500"/>
+<BoundingBox CRS="EPSG:102066" minx="-907032.062400" miny="-1229928.981500" maxx="-427819.042600" maxy="-932316.789500"/>
+<BoundingBox CRS="EPSG:32633" minx="281584.015420" miny="5342128.007964" maxx="795129.766015" maxy="5698963.473621"/>
+<BoundingBox CRS="EPSG:32634" minx="-140292.958483" miny="5373691.737811" maxx="353824.549315" maxy="5695038.666485"/>
+<Layer queryable="1">
+<Name>0</Name>
+<Title>
+<![CDATA[ ZTM50 ]]>
+</Title>
+<Abstract>
+<![CDATA[ <DIV STYLE="text-align:Left;font-size:12pt"><DIV><DIV><P><SPAN>Webová služba poskytující Základní topografick</SPAN><SPAN>ou</SPAN><SPAN> map</SPAN><SPAN>u</SPAN><SPAN> České republiky</SPAN><SPAN> 1:50 000</SPAN><SPAN>. Data jsou poskytována formou dlaždic v souřadnicovém systému S-JTSK v Křovákově zobrazení.</SPAN></P></DIV></DIV></DIV> ]]>
+</Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:5514</CRS>
+<!--  alias 5514  -->
+<CRS>EPSG:102067</CRS>
+<CRS>EPSG:3034</CRS>
+<CRS>EPSG:3035</CRS>
+<CRS>EPSG:3045</CRS>
+<CRS>EPSG:3046</CRS>
+<CRS>EPSG:3333</CRS>
+<CRS>EPSG:28403</CRS>
+<CRS>EPSG:3334</CRS>
+<CRS>EPSG:28404</CRS>
+<CRS>EPSG:3857</CRS>
+<!--  alias 3857  -->
+<CRS>EPSG:102100</CRS>
+<CRS>EPSG:4258</CRS>
+<CRS>EPSG:5221</CRS>
+<!--  alias 5221  -->
+<CRS>EPSG:102066</CRS>
+<CRS>EPSG:32633</CRS>
+<CRS>EPSG:32634</CRS>
+<EX_GeographicBoundingBox>
+<westBoundLongitude>11.897265</westBoundLongitude>
+<eastBoundLongitude>19.012700</eastBoundLongitude>
+<southBoundLatitude>48.206820</southBoundLatitude>
+<northBoundLatitude>51.383777</northBoundLatitude>
+</EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="11.897265" miny="48.206820" maxx="19.012700" maxy="51.383777"/>
+<BoundingBox CRS="EPSG:4326" minx="48.206820" miny="11.897265" maxx="51.383777" maxy="19.012700"/>
+<BoundingBox CRS="EPSG:5514" minx="-907032.062400" miny="-1229928.981500" maxx="-427819.042600" maxy="-932316.789500"/>
+<BoundingBox CRS="EPSG:102067" minx="-907032.062400" miny="-1229928.981500" maxx="-427819.042600" maxy="-932316.789500"/>
+<BoundingBox CRS="EPSG:3034" minx="2395705.359549" miny="4129016.155979" maxx="2768090.190938" maxy="4639254.523858"/>
+<BoundingBox CRS="EPSG:3035" minx="2791483.969107" miny="4454610.589446" maxx="3177383.373809" maxy="4982542.978650"/>
+<BoundingBox CRS="EPSG:3045" minx="5342128.007842" miny="281584.015418" maxx="5698963.473497" maxy="795129.766018"/>
+<BoundingBox CRS="EPSG:3046" minx="5373691.737689" miny="-140292.958490" maxx="5695038.666361" maxy="353824.549314"/>
+<BoundingBox CRS="EPSG:3333" minx="5344359.782747" miny="3281492.977414" maxx="5701344.126709" maxy="3795252.784308"/>
+<BoundingBox CRS="EPSG:28403" minx="5344359.782747" miny="3281492.977414" maxx="5701344.126709" maxy="3795252.784308"/>
+<BoundingBox CRS="EPSG:3334" minx="5375936.669268" miny="3859440.161247" maxx="5697417.683693" maxy="4353763.619306"/>
+<BoundingBox CRS="EPSG:28404" minx="5375936.669268" miny="3859440.161247" maxx="5697417.683693" maxy="4353763.619306"/>
+<BoundingBox CRS="EPSG:3857" minx="1324397.510118" miny="6141331.504841" maxx="2116484.047864" maxy="6689462.238321"/>
+<BoundingBox CRS="EPSG:102100" minx="1324397.510118" miny="6141331.504841" maxx="2116484.047864" maxy="6689462.238321"/>
+<BoundingBox CRS="EPSG:4258" minx="48.206820" miny="11.897265" maxx="51.383777" maxy="19.012700"/>
+<BoundingBox CRS="EPSG:5221" minx="-907032.062400" miny="-1229928.981500" maxx="-427819.042600" maxy="-932316.789500"/>
+<BoundingBox CRS="EPSG:102066" minx="-907032.062400" miny="-1229928.981500" maxx="-427819.042600" maxy="-932316.789500"/>
+<BoundingBox CRS="EPSG:32633" minx="281584.015420" miny="5342128.007964" maxx="795129.766015" maxy="5698963.473621"/>
+<BoundingBox CRS="EPSG:32634" minx="-140292.958483" miny="5373691.737811" maxx="353824.549315" maxy="5695038.666485"/>
+<Style>
+<Name>default</Name>
+<Title>
+<![CDATA[ ZTM50 ]]>
+</Title>
+<LegendURL width="18" height="18">
+<Format>image/png</Format>
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ags.cuzk.gov.cz/arcgis1/services/ZTM/ZTM50/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=0" xlink:type="simple"/>
+</LegendURL>
+</Style>
+</Layer>
+</Layer>
+</Capability>
+</WMS_Capabilities>

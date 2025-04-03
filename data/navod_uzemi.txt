@@ -1,0 +1,185 @@
+Ceský úrad zememerický a katastrální
+Sekce centrální databáze
+Smernice INSPIRE
+Informace o sérii datových sad INSPIRE tématu
+Územní správní jednotky
+Zpracoval: Bc. Michal Med
+Datum: 16. prosince 2013
+Verze: 1.2
+Popis: Dokument obsahuje základní informace o sérii datových sad pro INSPIRE téma
+Územní správní jednotky (AU), které bylo zpracováno Sekcí centrální databáze
+CÚZK. Dokument obsahuje seznam prvku, která data obsahují, zpusoby distribuce a
+ukázku dat.
+Upozornení: Dokument není urcen pro tisk. Príklady volání služeb obsahují url adresu.
+Pro další práci s adresou zobrazte odkaz v prohlížeci a adresu kopírujte z prohlížece.
+Jazyk: Cze
+Schválil: Ing. Petr Soucek, Ph.D.
+Obsah
+1 Popis datového modelu AU dle INSPIRE 2
+2 Poskytované prvky 5
+3 Tabulka verzí 7
+1
+1 | Popis datového modelu AU dle
+INSPIRE
+Data vznikla v souladu se Smernicí Evropského parlamentu a Rady 2007/2/ES ze dne 14.3.2007 o zrízení infrastruktury
+pro prostorové informace v Evropském spolecenství (INSPIRE) a podle navazujících právních predpisu (zákon c.
+123/1998 Sb., o právu na informace o životním prostredí, a c.200/1994, o zememerictví, v platných zneních). Datový
+model je navržen podle verze 3.0.1 Datové specifikace pro téma Územní správní jednotky.
+Data jsou poskytována v souborech ve formátu GML 3.2.1 ve dvou základních souradnicových systémech – ETRS,
+který je požadovaný smernicí INSPIRE, a S-JTSK, který je používán pro katastrální data v Ceské republice. Data
+tématu Územní správní jednotky v jednom souboru pro celou Ceskou republiku je možné stáhnout zde:
+Název EPSG kód Umístení souboru
+S-JTSK / Krovak East North 5514 services.cuzk.cz/gml/inspire/au/epsg-5514
+ETRS89 4258 services.cuzk.cz/gml/inspire/au/epsg-4258
+Soubory obsahují radu prvku typu member, které obsahují tri typy prvku. Jsou to typy AdministratveUnit,
+AdministrativeBoundary a NUTSRegion.
+Služby WMS a WFS jsou poskytovány z online dat, predpripravené GML soubory jsou aktualizovány 1 denne.
+Více informací o stahovacích a prohlížecích službách nad INSPIRE harmonizovanými daty k tématu Územní správní
+jednotky (AU) najdete v techto dokumentech:
+ Informace o stahovacích službách pro INSPIRE téma Územní správní jednotky
+ Informace o prohlížecích službách pro INSPIRE téma Územní správní jednotky
+Data ve formátu GML 3.2.1 pro INSPIRE téma Územní správní jednotky (AU) vypadají jako v následujícím
+príkladu:
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns:GN="urn:x-inspire:specification:gmlas:GeographicalNames:3.0"
+...
+...
+...
+numberMatched="6"
+numberReturned="6"
+2
+xmlns="http://www.opengis.net/wfs/2.0">
+<boundedBy>
+<gml:Envelope srsName="urn:ogc:def:crs:EPSG::5514" srsDimension="2">
+<gml:lowerCorner>-904584.86 -1227295.83</gml:lowerCorner>
+<gml:upperCorner>-431726.85 -935236.59</gml:upperCorner>
+</gml:Envelope>
+</boundedBy>
+<member>
+<AU:AdministrativeUnit gml:id="AU.3.3307">
+<AU:geometry>
+<gml:MultiSurface gml:id="MS.AU.3.3307" srsName="urn:ogc:def:crs:EPSG::5514" srsDimension="2">
+<gml:surfaceMember>
+<gml:Polygon gml:id="S.AU.3.3307.1">
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>-800187.19 -1113802.45
+...
+...
+-800187.19 -1113802.45</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</AU:geometry>
+<AU:nationalCode>CZ</AU:nationalCode>
+<AU:inspireId>
+<base:Identifier>
+<base:localId>AU.3.3307</base:localId>
+<base:namespace>CZ_00025712-CUZK_AU</base:namespace>
+</base:Identifier>
+</AU:inspireId>
+<AU:nationalLevel>3rdOrder</AU:nationalLevel>
+<AU:nationalLevelName>
+<LocalisedCharacterString xmlns="http://www.isotc211.org/2005/gmd">Okres</LocalisedCharacterString>
+</AU:nationalLevelName>
+<AU:country>
+<Country codeList="http://inspire.ec.europa.eu/codelist/CountryCode" codeListValue="http://inspire.</AU:country>
+<AU:name>
+<GN:GeographicalName>
+<GN:language>ces</GN:language>
+<GN:nativeness>endonym</GN:nativeness>
+<GN:nameStatus>official</GN:nameStatus>
+<GN:sourceOfName>Ceský úrad zememerický a katastrální</GN:sourceOfName>
+<GN:pronunciation xsi:nil="true" />
+<GN:spelling>
+<GN:SpellingOfName>
+<GN:text>Strakonice</GN:text>
+<GN:script>Latn</GN:script>
+</GN:SpellingOfName>
+</GN:spelling>
+</GN:GeographicalName>
+3
+</AU:name>
+<AU:residenceOfAuthority xsi:nil="true" />
+<AU:beginLifespanVersion>2013-10-01T18:37:15Z</AU:beginLifespanVersion>
+<AU:NUTS xsi:nil="true" />
+<AU:upperLevelUnit xlink:href="#AU.2.35" xlink:title="Jihoceský kraj" />
+</AU:AdministrativeUnit>
+</member>
+<member>
+...
+...
+...
+</member>
+</FeatureCollection>
+4
+2 | Poskytované prvky
+Každý ze trí základních typu prvku obsahuje radu elementu, kterými jsou popsány vlastnosti prostorových objektu.
+Tyto prostorové objekty jsou popsány v následující tabulce:
+Prvky je možné získat pomocí stahovacích služeb (WFS a predpripravené soubory pro celé území Ceskou republiku)
+nebo pomocí prohlížecích služeb (WMS). Oba dva typy služeb jsou harmonizovány dle smernice INSPIRE. Prvky lze
+ve vyhledávacím dotazu kombinovat.
+Název typu prvku Popis Obsah Popis
+geometry Geometrická reprezentace prvku formou
+polygonu.
+nationalCode Dvoupísmenný národní kód dle standardu
+ISO 3166-1.
+inspireId Jedinecný identifikátor v rámci INSPIRE.
+nationalLevel Kód národní úrovne clenení. Nabývá
+hodnot 1stOrder, 2ndOrder, 3rdOrder
+nebo 4thOrder.
+nationalLevelName Název národní úrovne clenení. Nabývá
+hodnot Stát, Kraj, Okres nebo Obec.
+AdministrativeUnit Územní správní jednotka country Celý název státu do kterého územní
+správní jednotka patrí.
+name Název územní správní jednotky.
+beginLifespan-
+Version Datum zmeny prvku v datové sade..
+NUTS Odkaz na NUTS Region v INSPIRE
+který odpovídá územní správní jednotce.
+Vyplneno pouze u jednotek
+národní úrovne clenení 1stOrder nebo
+2ndOrder.
+upperLevelUnit Odkaz na nadrazenou územní správní
+jednotku. Jednotky národní úrovne
+clenení 1stOrder nemají.
+geometry Geometrická reprezentace prvku formou
+linie.
+AdministrativeBoundary Územní správní hranice inspireId Jedinecný identifikátor v rámci INSPIRE.
+nationalLevel Kód národní úrovne clenení. Nabývá
+hodnot 1stOrder, 2ndOrder, 3rdOrder
+nebo 4thOrder.
+pokracování tabulky na další strane
+5
+pokracování tabulky z predchozí strany
+Název typu prvku Popis Obsah Popis
+legalStatus Právní stav územní správní hranice.
+Nabývá hodnot agreed nebo
+notAgreed.
+AdministrativeBoundary Územní správní hranice technicalStatus Technický stav územní správní hranice.
+Nabývá hodnot edgeMatched nebo
+notEdgeMatched.
+country Celý název státu do kterého územní
+správní hramoce patrí.
+beginLifespan-
+Version Datum zmeny prvku v datové sade..
+admUnit Odkaz na územní správní jednotky, jejichž
+hranice je tvorena tímto konkrétním
+kusem hranice.
+geometry Geometrická reprezentace prvku formou
+polygonu.
+inspireId Jedinecný identifikátor v rámci INSPIRE.
+NUTSRegion Region NUTS NUTSCode Kód NUTS odpovídající konkrétnímu
+NUTS Regionu.
+beginLifespan-
+Version Datum zmeny prvku v datové sade.
+6
+3 | Tabulka verzí
+Verze Datum Zmeny
+1.1 2013-11-11 Puvodní verze
+1.2 2013-11-12 Opraveny preklepy
+7
