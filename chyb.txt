@@ -1,0 +1,7 @@
+výstupní geotiff z reprojection funguje skvěle.
+Vstupní rozlišení z 5514 je 0,6m/px jak x tak y. výstupní geotiff v wgs84 má ale 0,6m/px x a 0,85m/px y po přepočtu ze stupnů. Potřeboval bych zařídit aby výstupní geotiff měl také rozlišení 0,6m/px x i y po přepočtu.
+odpovídej česky
+@orto-pokrokove 
+potřebuji aby si každou dlaždici vypočítal přesně z její souřadnice , chci zachovat nelepší možnou přesnost.
+rozlišení může také zjistit z vrt vstupu, který je v 5514, nebo z nastavení ve skriptu stahování
+musím mít zcela přesná data a vysokou kvalitu
